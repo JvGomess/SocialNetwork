@@ -161,9 +161,11 @@ a {
 }
 
 #posts .post-content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
     margin-top: 15px;
+    padding-bottom: 10px;
 
     display: flex;
     justify-content: center;
@@ -211,19 +213,20 @@ a {
 }
 
 #posts .interactions {
-    border-top: 1px solid lightgray;
     border-width: 100%;
-    padding-top: 10px;
+    margin-top: 10px;
+    width: 350px;
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #posts .interactions a {
     border-radius: 10px;
     color: #fff;
     font-size: 0.9em;
-    padding: 5px 10px;
+    font-weight: 700;
 
     display: flex;
     align-items: center;
@@ -236,15 +239,15 @@ a {
 
 
 #posts .interactions .like {
-    background-color: mediumvioletred;
-    margin-right: 10px;
+    color: mediumvioletred;
+    margin-right: 15px;
 }
 
 #posts .interactions .comment {
-    background-color: yellow;
-    margin-right: 10px;
+    color: yellow;
+    margin-right: 15px;
 }
 
 #posts .interactions .share {
-    background-color: cornflowerblue;
+    color: cornflowerblue;
 }
